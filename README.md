@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/5EQcSWQ.jpeg)" width="200"  />
 
-### Tech Test - Front End Dev ReactJS Sekaawn Media
-
+### Tech Test - Front End Dev ReactJS Sekawan Media
+Build with ReactJS (v18.3.1) & Node (v18.20)
 ## Prerequisite
 
 Before you begin, ensure you have met the following requirements:
