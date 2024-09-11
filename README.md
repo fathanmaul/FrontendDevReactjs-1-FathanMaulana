@@ -65,7 +65,6 @@ This project is deployed using Netlify. You can access the live version of this 
 - [Vite](https://vitejs.dev/)
 
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Firebase](https://firebase.google.com/)
 
 - [React Icons](https://react-icons.github.io/react-icons/)
 
