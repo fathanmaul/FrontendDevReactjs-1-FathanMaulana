@@ -53,7 +53,7 @@ This command will start a local development server and open your default browser
 ## Sneak Peek
 
 ![Screenshot](https://i.imgur.com/dWLgvhr.png)
-![Screenshot](https://i.imgur.com/NT1LjA8.png)
+![Screenshot](https://i.imgur.com/nyFykDw.png)
 
 ## Deployment
 
