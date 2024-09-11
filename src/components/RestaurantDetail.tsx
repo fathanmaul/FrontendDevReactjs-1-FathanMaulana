@@ -1,6 +1,7 @@
 import Rating from "./Rating";
 import { IsClosed } from "./RestaurantCard";
 import { Restaurant } from "../data/types/restaurant";
+import Review from "./Review";
 
 export default function RestaurantDetail({
   restaurant,
@@ -52,6 +53,8 @@ export default function RestaurantDetail({
           </div>
         </div>
       </div>
+
+      <Review/>
     </>
   );
 }

@@ -12,7 +12,6 @@ export default function Detail() {
   const [loading, setLoading] = useState(true);
   // get param from url
   const { id } = useParams<{ id: string }>();
-  
 
   // fetch restaurant detail
   useEffect(() => {
@@ -68,7 +67,14 @@ function DetailSkeleton() {
           <div className="w-1/2 h-4 rounded-full bg-neutral-300 animate-pulse"></div>
           <div className="w-1/2 h-4 rounded-full bg-neutral-300 animate-pulse"></div>
         </div>
+
       </div>
+        <div className="max-w-[90%] mx-auto mt-12 animate-pulse flex flex-col gap-4">
+          <div className="w-1/5 h-4 rounded-full bg-neutral-300 animate-pulse"></div>
+          <div className="w-1/3 h-4 rounded-full bg-neutral-300 animate-pulse"></div>
+          <div className="w-1/5 h-4 rounded-full bg-neutral-300 animate-pulse"></div>
+          <div className="w-1/3 h-4 rounded-full bg-neutral-300 animate-pulse"></div>
+        </div>
     </>
   );
 }

@@ -1,12 +1,11 @@
 import { Restaurant } from "../types/restaurant";
-import { options } from "./options";
 export async function getListRestaurant(
   limit: number,
   page: number,
   category?: string
 ): Promise<Restaurant[]> {
   try {
-    const url = `https://${import.meta.env.VITE_API_HOST}`;
+    const url = `${import.meta.env.VITE_PROTOCOL}://${import.meta.env.VITE_API_HOST}`;
     const response = await fetch(url, {
       headers: {
         "X-Master-Key":
@@ -36,7 +35,7 @@ export async function getListRestaurant(
 
 export async function getListCategories(): Promise<string[]> {
   try {
-    const url = `https://${import.meta.env.VITE_API_HOST}`;
+    const url = `${import.meta.env.VITE_PROTOCOL}://${import.meta.env.VITE_API_HOST}`;
     const response = await fetch(url, {
       headers: {
         "X-Master-Key":
@@ -57,7 +56,7 @@ export async function getListCategories(): Promise<string[]> {
 
 export async function getRestaurantById(id: string): Promise<any> {
   try {
-    const url = `https://${import.meta.env.VITE_API_HOST}`;
+    const url = `${import.meta.env.VITE_PROTOCOL}://${import.meta.env.VITE_API_HOST}`;
     const response = await fetch(url, {
       headers: {
         "X-Master-Key":
